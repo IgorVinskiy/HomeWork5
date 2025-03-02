@@ -1,4 +1,3 @@
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
@@ -46,6 +45,8 @@ public class Main {
         System.out.println("Задача 5");
         byte monthNumber = 4;
         if (monthNumber < 1 || monthNumber > 12) {
+            System.out.println("Ошибка, выберите номер месяца от 1 до 12");
+        } else {
             System.out.println("Ошибка,выберите номер месяца");
             switch (monthNumber) {
                 case 1:
@@ -68,8 +69,6 @@ public class Main {
                 case 11:
                     System.out.println("ОСЕНЬ");
                     break;
-                default:
-                    System.out.println("Ошибка,выберите номер месяца");
             }
         }
     }
