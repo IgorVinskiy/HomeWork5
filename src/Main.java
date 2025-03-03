@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
         System.out.println(("Задача 1"));
-        int clientOS = 0;
+        int clientOS = 1;
         if (clientOS == 0) {
             System.out.println("Установите версию для iOS по ссылке");
         } else if (clientOS == 1) {
