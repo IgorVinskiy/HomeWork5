@@ -20,14 +20,11 @@ public class Main {
             System.out.println("Установите упрощенную версию для Android по ссылке");
         }
         System.out.println("Задача 3");
-        int dateYear = 2023;
-        boolean notYear = true;
-        if (dateYear % 4 == 0 || dateYear % 400 == 0) {
+        int dateYear = 20243;
+        if (dateYear % 4 == 0 || dateYear % 400 == 0 && dateYear < 1584) {
             System.out.println("этот год високосный");
-        } else if (dateYear % 100 == 0) {
+        } else if (dateYear % 100 == 0 && dateYear <1584) {
             System.out.println("этот год не високосный");
-        } else if (dateYear < 1584) {
-            System.out.println("ОШИБКА");
         } else {
             System.out.println("этот год не високосный");
         }
